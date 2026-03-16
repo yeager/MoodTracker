@@ -53,11 +53,11 @@ class CheckInView(Gtk.Box):
         self.set_margin_end(24)
 
         # Rubrik
-        header = Gtk.Label(label=_("Hur mår du just nu?"))
+        header = Gtk.Label(label=_("How are you feeling right now?"))
         header.add_css_class("title-1")
         self.append(header)
 
-        subtitle = Gtk.Label(label=_("Select den känsla som bäst beskriver dig"))
+        subtitle = Gtk.Label(label=_("Select the emotion that best describes you"))
         subtitle.add_css_class("dim-label")
         self.append(subtitle)
 
@@ -141,7 +141,7 @@ class CheckInView(Gtk.Box):
 
                 self.today_box.append(row)
         else:
-            empty = Gtk.Label(label=_("Inga registreringar idag ännu"))
+            empty = Gtk.Label(label=_("No registrations today yet"))
             empty.add_css_class("dim-label")
             self.today_box.append(empty)
 
@@ -169,7 +169,7 @@ class ChartView(Gtk.Box):
         self.set_margin_start(24)
         self.set_margin_end(24)
 
-        header = Gtk.Label(label=_("Dina känslomönster"))
+        header = Gtk.Label(label=_("Your emotional patterns"))
         header.add_css_class("title-1")
         self.append(header)
 
@@ -207,20 +207,20 @@ class ChartView(Gtk.Box):
         entries = self.db.get_entries_range(days)
 
         if not daily_avgs:
-            empty = Gtk.Label(label=_("Ingen data ännu. Gör din första check-in!"))
+            empty = Gtk.Label(label=_("No data yet. Make your first check-in!"))
             empty.add_css_class("dim-label")
             self.chart_box.append(empty)
             return
 
         # Trendgraf
         chart_data = create_mood_chart(
-            daily_avgs, days, _("Stämning senaste %d dagarna") % days
+            daily_avgs, days, _("Submission last %d days") % days
         )
         if chart_data:
             self._add_chart_image(chart_data)
 
         # Fördelningsgraf
-        dist_data = create_mood_distribution(entries, _("Känslofördelning"))
+        dist_data = create_mood_distribution(entries, _("Distribution of feelings"))
         if dist_data:
             self._add_chart_image(dist_data)
 
@@ -234,7 +234,7 @@ class ChartView(Gtk.Box):
             total = sum(r["count"] for r in daily_avgs)
 
             stats = [
-                (_("Genomsnittlig stämning: %.1f / 5") % avg_val),
+                (_("Average sentiment: %.1f / 5") % avg_val),
                 (_("Total antal registreringar: %d") % total),
                 (_("Days med data: %d") % len(daily_avgs)),
             ]
@@ -279,7 +279,7 @@ class MoodTrackerWindow(Adw.ApplicationWindow):
         header = Adw.HeaderBar()
         header.set_title_widget(Adw.WindowTitle(
             title="MoodTracker",
-            subtitle=_("Känsloloapp")
+            subtitle=_("Emotional app")
         ))
 
         # Export-knapp
@@ -361,7 +361,7 @@ class MoodTrackerWindow(Adw.ApplicationWindow):
         """Callback när en stämning har registrerats."""
         self.chart_view.refresh(30)
         # Visa bekräftelse
-        toast = Adw.Toast(title=_("Känsla registrerad! ✓"))
+        toast = Adw.Toast(title=_("Feeling registered! ✓"))
         toast.set_timeout(2)
         # Adw.Toast behöver en ToastOverlay
         if not hasattr(self, "_toast_overlay"):

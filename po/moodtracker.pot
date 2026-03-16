@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the MoodTracker package.
+# This file is distributed under the same license as the moodtracker package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MoodTracker 1.0\n"
+"Project-Id-Version: moodtracker 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 11:51+0100\n"
+"POT-Creation-Date: 2026-03-16 12:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: moodtracker/window.py:56
-msgid "Hur mår du just nu?"
+msgid "How are you feeling right now?"
 msgstr ""
 
 #: moodtracker/window.py:60
-msgid "Select den känsla som bäst beskriver dig"
+msgid "Select the emotion that best describes you"
 msgstr ""
 
 #: moodtracker/window.py:83
@@ -34,11 +34,11 @@ msgid "Dagens registreringar"
 msgstr ""
 
 #: moodtracker/window.py:144
-msgid "Inga registreringar idag ännu"
+msgid "No registrations today yet"
 msgstr ""
 
 #: moodtracker/window.py:172
-msgid "Dina känslomönster"
+msgid "Your emotional patterns"
 msgstr ""
 
 #: moodtracker/window.py:180
@@ -54,21 +54,21 @@ msgid "90 dagar"
 msgstr ""
 
 #: moodtracker/window.py:210
-msgid "Ingen data ännu. Gör din första check-in!"
+msgid "No data yet. Make your first check-in!"
 msgstr ""
 
 #: moodtracker/window.py:217
 #, python-format
-msgid "Stämning senaste %d dagarna"
+msgid "Submission last %d days"
 msgstr ""
 
 #: moodtracker/window.py:223
-msgid "Känslofördelning"
+msgid "Distribution of feelings"
 msgstr ""
 
 #: moodtracker/window.py:237
 #, python-format
-msgid "Genomsnittlig stämning: %.1f / 5"
+msgid "Average sentiment: %.1f / 5"
 msgstr ""
 
 #: moodtracker/window.py:238
@@ -82,7 +82,7 @@ msgid "Days med data: %d"
 msgstr ""
 
 #: moodtracker/window.py:282
-msgid "Känsloloapp"
+msgid "Emotional app"
 msgstr ""
 
 #: moodtracker/window.py:287
@@ -98,7 +98,7 @@ msgid "Statistics"
 msgstr ""
 
 #: moodtracker/window.py:364
-msgid "Känsla registrerad! ✓"
+msgid "Feeling registered! ✓"
 msgstr ""
 
 #: moodtracker/window.py:396

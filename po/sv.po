@@ -1,14 +1,44 @@
-# Swedish translation
-# Copyright (C) 2024
-# This file is distributed under the same license as the package.
-#
 msgid ""
 msgstr ""
+"Project-Id-Version: moodtracker 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-03-16 12:00+0100\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "How are you feeling right now?"
+msgstr "Hur mår du just nu?"
+
+msgid "Select the emotion that best describes you"
+msgstr "Select den känsla som bäst beskriver dig"
+
+msgid "No registrations today yet"
+msgstr "Inga registreringar idag ännu"
+
+msgid "Your emotional patterns"
+msgstr "Dina känslomönster"
+
+msgid "No data yet. Make your first check-in!"
+msgstr "Ingen data ännu. Gör din första check-in!"
+
+msgid "Submission last %d days"
+msgstr "Stämning senaste %d dagarna"
+
+msgid "Distribution of feelings"
+msgstr "Känslofördelning"
+
+msgid "Average sentiment: %.1f / 5"
+msgstr "Genomsnittlig stämning: %.1f / 5"
+
+msgid "Emotional app"
+msgstr "Känsloloapp"
+
+msgid "Feeling registered! ✓"
+msgstr "Känsla registrerad! ✓"
 
 msgid "30 dagar"
 msgstr "30 dagar"
