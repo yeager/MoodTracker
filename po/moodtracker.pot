@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: moodtracker\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 19:25+0100\n"
+"POT-Creation-Date: 2026-03-16 20:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,7 @@ msgid "Anteckning (valfritt):"
 msgstr ""
 
 #: moodtracker/window.py:109
-msgid "Dagens registreringar"
+msgid "Today's registrations"
 msgstr ""
 
 #: moodtracker/window.py:144
@@ -42,15 +42,15 @@ msgid "Your emotional patterns"
 msgstr ""
 
 #: moodtracker/window.py:180
-msgid "7 dagar"
+msgid "7 days"
 msgstr ""
 
 #: moodtracker/window.py:180
-msgid "30 dagar"
+msgid "30 days"
 msgstr ""
 
 #: moodtracker/window.py:180
-msgid "90 dagar"
+msgid "90 days"
 msgstr ""
 
 #: moodtracker/window.py:210
@@ -78,7 +78,7 @@ msgstr ""
 
 #: moodtracker/window.py:239
 #, python-format
-msgid "Days med data: %d"
+msgid "Days with data: %d"
 msgstr ""
 
 #: moodtracker/window.py:282
@@ -86,7 +86,7 @@ msgid "Emotional app"
 msgstr ""
 
 #: moodtracker/window.py:287
-msgid "Exportera till CSV"
+msgid "Export to CSV"
 msgstr ""
 
 #: moodtracker/window.py:301
@@ -103,5 +103,5 @@ msgstr ""
 
 #: moodtracker/window.py:396
 #, python-format
-msgid "Exporterad till %s"
+msgid "Exported to %s"
 msgstr ""

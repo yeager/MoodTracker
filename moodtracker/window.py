@@ -106,7 +106,7 @@ class CheckInView(Gtk.Box):
 
         self.today_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=8)
 
-        today_label = Gtk.Label(label=_("Dagens registreringar"))
+        today_label = Gtk.Label(label=_("Today's registrations"))
         today_label.add_css_class("title-3")
         today_label.set_halign(Gtk.Align.START)
         self.today_box.append(today_label)
@@ -177,7 +177,7 @@ class ChartView(Gtk.Box):
         period_box = Gtk.Box(spacing=8)
         period_box.set_halign(Gtk.Align.CENTER)
 
-        for days, label in [(7, _("7 dagar")), (30, _("30 dagar")), (90, _("90 dagar"))]:
+        for days, label in [(7, _("7 days")), (30, _("30 days")), (90, _("90 days"))]:
             btn = Gtk.Button(label=label)
             btn.connect("clicked", self._on_period_changed, days)
             btn.add_css_class("pill")
@@ -236,7 +236,7 @@ class ChartView(Gtk.Box):
             stats = [
                 (_("Average sentiment: %.1f / 5") % avg_val),
                 (_("Total number of registrations: %d") % total),
-                (_("Days med data: %d") % len(daily_avgs)),
+                (_("Days with data: %d") % len(daily_avgs)),
             ]
             for s in stats:
                 lbl = Gtk.Label(label=s)
@@ -284,7 +284,7 @@ class MoodTrackerWindow(Adw.ApplicationWindow):
 
         # Export-knapp
         export_btn = Gtk.Button(icon_name="document-save-symbolic")
-        export_btn.set_tooltip_text(_("Exportera till CSV"))
+        export_btn.set_tooltip_text(_("Export to CSV"))
         export_btn.connect("clicked", self._on_export)
         header.pack_end(export_btn)
 
@@ -393,7 +393,7 @@ class MoodTrackerWindow(Adw.ApplicationWindow):
             if file:
                 path = file.get_path()
                 self.db.export_csv(path)
-                toast = Adw.Toast(title=_("Exporterad till %s") % path)
+                toast = Adw.Toast(title=_("Exported to %s") % path)
                 toast.set_timeout(3)
                 if hasattr(self, "_toast_overlay"):
                     self._toast_overlay.add_toast(toast)
