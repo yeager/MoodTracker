@@ -235,7 +235,7 @@ class ChartView(Gtk.Box):
 
             stats = [
                 (_("Average sentiment: %.1f / 5") % avg_val),
-                (_("Total antal registreringar: %d") % total),
+                (_("Total number of registrations: %d") % total),
                 (_("Days med data: %d") % len(daily_avgs)),
             ]
             for s in stats:
