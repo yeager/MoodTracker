@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=MoodTracker
+Name[sv]=Humörlogg
+Comment=Daily mood logging
+Comment[sv]=Daglig humörlogg
+GenericName=Accessibility Application
+GenericName[sv]=Tillgänglighetsapp
+Exec=python3 -m moodtracker
+Icon=moodtracker
+Terminal=false
+Type=Application
+Categories=Utility;Accessibility;
+Keywords=accessibility;a11y;
+Keywords[sv]=tillgänglighet;funktionsnedsättning;
