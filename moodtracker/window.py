@@ -57,7 +57,7 @@ class CheckInView(Gtk.Box):
         header.add_css_class("title-1")
         self.append(header)
 
-        subtitle = Gtk.Label(label=_("Välj den känsla som bäst beskriver dig"))
+        subtitle = Gtk.Label(label=_("Select den känsla som bäst beskriver dig"))
         subtitle.add_css_class("dim-label")
         self.append(subtitle)
 
@@ -235,8 +235,8 @@ class ChartView(Gtk.Box):
 
             stats = [
                 (_("Genomsnittlig stämning: %.1f / 5") % avg_val),
-                (_("Totalt antal registreringar: %d") % total),
-                (_("Dagar med data: %d") % len(daily_avgs)),
+                (_("Total antal registreringar: %d") % total),
+                (_("Days med data: %d") % len(daily_avgs)),
             ]
             for s in stats:
                 lbl = Gtk.Label(label=s)
@@ -304,7 +304,7 @@ class MoodTrackerWindow(Adw.ApplicationWindow):
         # Grafvy
         self.chart_view = ChartView(self.db)
         self.view_stack.add_titled_with_icon(
-            self.chart_view, "charts", _("Statistik"), "utilities-system-monitor-symbolic"
+            self.chart_view, "charts", _("Statistics"), "utilities-system-monitor-symbolic"
         )
 
         # ViewSwitcher i headern
