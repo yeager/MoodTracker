@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=MoodTracker
+Name[sv]=MoodTracker
+GenericName=Mood Tracker
+GenericName[sv]=Känsloloapp
+Comment=Daily mood check-in with emoji
+Comment[sv]=Daglig stämnings-check-in med emoji
+Exec=moodtracker
+Icon=face-smile-symbolic
+Terminal=false
+Type=Application
+Categories=Utility;GTK;
+Keywords=mood;emotions;journal;diary;mental health;
+Keywords[sv]=humör;känslor;dagbok;mental hälsa;
+StartupNotify=true

@@ -1,0 +1,101 @@
+# English translation for MoodTracker
+# Copyright (C) 2026 MoodTracker Team
+# This file is distributed under the same license as the moodtracker package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: moodtracker 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 00:00+0000\n"
+"PO-Revision-Date: 2026-03-16 00:00+0000\n"
+"Last-Translator: MoodTracker Team\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: moodtracker/window.py
+msgid "Hur mår du just nu?"
+msgstr "How are you feeling right now?"
+
+#: moodtracker/window.py
+msgid "Välj den känsla som bäst beskriver dig"
+msgstr "Choose the emotion that best describes you"
+
+#: moodtracker/window.py
+msgid "Anteckning (valfritt):"
+msgstr "Note (optional):"
+
+#: moodtracker/window.py
+msgid "Dagens registreringar"
+msgstr "Today's entries"
+
+#: moodtracker/window.py
+msgid "Inga registreringar idag ännu"
+msgstr "No entries today yet"
+
+#: moodtracker/window.py
+msgid "Dina känslomönster"
+msgstr "Your mood patterns"
+
+#: moodtracker/window.py
+msgid "7 dagar"
+msgstr "7 days"
+
+#: moodtracker/window.py
+msgid "30 dagar"
+msgstr "30 days"
+
+#: moodtracker/window.py
+msgid "90 dagar"
+msgstr "90 days"
+
+#: moodtracker/window.py
+msgid "Ingen data ännu. Gör din första check-in!"
+msgstr "No data yet. Do your first check-in!"
+
+#: moodtracker/window.py
+msgid "Stämning senaste %d dagarna"
+msgstr "Mood over the last %d days"
+
+#: moodtracker/window.py
+msgid "Känslofördelning"
+msgstr "Mood distribution"
+
+#: moodtracker/window.py
+msgid "Genomsnittlig stämning: %.1f / 5"
+msgstr "Average mood: %.1f / 5"
+
+#: moodtracker/window.py
+msgid "Totalt antal registreringar: %d"
+msgstr "Total entries: %d"
+
+#: moodtracker/window.py
+msgid "Dagar med data: %d"
+msgstr "Days with data: %d"
+
+#: moodtracker/window.py
+msgid "Känsloloapp"
+msgstr "Mood Diary"
+
+#: moodtracker/window.py
+msgid "Exportera till CSV"
+msgstr "Export to CSV"
+
+#: moodtracker/window.py
+msgid "Känsla registrerad! ✓"
+msgstr "Mood logged! ✓"
+
+#: moodtracker/window.py
+msgid "Exporterad till %s"
+msgstr "Exported to %s"
+
+#: moodtracker/window.py
+msgid "Check-in"
+msgstr "Check-in"
+
+#: moodtracker/window.py
+msgid "Statistik"
+msgstr "Statistics"
